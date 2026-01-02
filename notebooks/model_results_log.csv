@@ -1,0 +1,9 @@
+timestamp,model,params,mean_f1_macro,std_f1_macro,notes
+2025-12-22T16:31:05,LinearSVC,"{'class_weight': 'balanced', 'max_iter': 5000}",0.4386169822230765,0.004328010740367475,Linear baseline
+2025-12-22T17:19:06,LinearSVC,"{'class_weight': 'balanced', 'max_iter': 5000}",0.4386169822230765,0.004328010740367475,Linear baseline
+2025-12-22T17:56:41,LinearSVC,"{'class_weight': 'balanced', 'max_iter': 5000}",0.4386169822230765,0.004328010740367475,Linear baseline
+2025-12-22T18:04:46,PCA20+SVC_RBF,"{'pca_n_components': 20, 'svm_kernel': 'rbf', 'svm_gamma': 'scale', 'svm_C': 1.0, 'class_weight': 'balanced'}",0.39270036502918465,0.005016389370734075,PCA keeps 20 components; reduces dimension automatically
+2025-12-22T18:16:25,LinearSVC,"{'class_weight': 'balanced', 'max_iter': 5000}",0.4386169822230765,0.004328010740367475,Linear baseline
+2025-12-22T18:26:36,PCA30+SVC_RBF,"{'pca_n_components': 30, 'svm_kernel': 'rbf', 'svm_gamma': 'scale', 'svm_C': 1.0, 'class_weight': 'balanced'}",0.41590867582882474,0.001683650896232186,PCA keeps 30 components; reduces dimension automatically
+2025-12-22T18:39:05,LinearSVC,"{'class_weight': 'balanced', 'max_iter': 5000}",0.4386169822230765,0.004328010740367475,Linear baseline
+2025-12-22T18:54:57,PCA50+SVC_RBF,"{'pca_n_components': 50, 'svm_kernel': 'rbf', 'svm_gamma': 'scale', 'svm_C': 1.0, 'class_weight': 'balanced'}",0.4291122351960328,0.001953059698078017,PCA keeps 50 components; reduces dimension automatically
