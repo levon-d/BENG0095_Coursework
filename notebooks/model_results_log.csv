@@ -12,3 +12,6 @@ timestamp,model,params,mean_f1_macro,std_f1_macro,notes
 2026-01-03T16:52:21,LinearSVC,"{'class_weight': 'balanced', 'max_iter': 5000}",0.43167491065982333,0.0027347556303594918,Linear baseline
 2026-01-03T16:53:44,LinearSVC,"{'class_weight': 'balanced', 'max_iter': 5000}",0.43167491065982333,0.0027347556303594918,Linear baseline
 2026-01-03T17:02:42,PCA29+SVC_RBF,"{'pca_n_components': 29, 'svm_kernel': 'rbf', 'svm_gamma': 'scale', 'svm_C': 1.0, 'class_weight': 'balanced'}",0.43199767311845977,0.003898842284665938,PCA keeps 29 components; reduces dimension automatically
+2026-01-03T18:55:29,NN_non_tuned_baseline_64_32_relu_Val_F1_Macro_Mean_Score,0.4219600260257721,0.0051340204663574696,,
+2026-01-03T18:55:29,NN_non_tuned_baseline_64_32_relu_Val_Accuracy_Mean_Score,0.4757340310981212,0.007180513146752008,,
+2026-01-03T18:55:29,NN_non_tuned_baseline_64_32_relu_Val_F1_Weighted_Mean_Score,0.49624380469322205,0.00611727312207222,,
