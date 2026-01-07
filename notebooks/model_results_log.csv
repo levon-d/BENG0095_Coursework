@@ -68,3 +68,11 @@ timestamp,model,params,mean_f1_macro,std_f1_macro,notes
 2026-01-07T19:25:05,"Non-tuned Neural Network (64-32-relu, 10-fold CV)",0.3831580579280853,0.004363559016685944,,
 2026-01-07T19:31:23,NN_Custom_Tuned_Stage1,"{'arch': '64-32-relu, max_epochs=50', 'lr': 0.01, 'weight_decay': 0.0001, 'batch_size': 128}",0.3831580579280853,0.004599595442414284,"Top Config: lr=0.01, weight_decay=0.0001, batch_size=128"
 2026-01-07T19:37:41,NN_Arch_Tuned_wider_128_64_relu,"{'stage': 'architecture_tuning', 'architecture': 'wider_128_64_relu', 'cv': '10-fold'}",0.3988859951496124,0.0037910074461251497,Architecture selection based on macro-F1; reported score is mean ± std over CV folds
+2026-01-07T20:09:36,LogisticRegression_V4_CorrFilter,"{'C': 0.1, 'corr_threshold': 0.9}",0.4344152265076827,0.003830160066597912,Correlation filter + VarianceThreshold + StandardScaler
+2026-01-07T20:17:28,LinearSVC_with_rules,"{'class_weight': 'balanced', 'max_iter': 5000, 'cv': 10}",0.4310484780815501,0.006097674357213515,10-fold OOF + decision_function softmax + expired->NO rule
+2026-01-07T20:54:14,LogisticRegression_V4_CorrFilter,"{'C': 0.1, 'corr_threshold': 0.9}",0.4344152265076827,0.003830160066597912,Correlation filter + VarianceThreshold + StandardScaler
+2026-01-07T20:54:17,LinearSVC_with_rules,"{'class_weight': 'balanced', 'max_iter': 5000, 'cv': 10}",0.43167491065982333,0.0027347556303594918,10-fold OOF + decision_function softmax + expired->NO rule
+2026-01-07T21:06:05,PCA29+SVC_RBF_with_rules,"{'pca_n_components': 29, 'svm_kernel': 'rbf', 'svm_gamma': 'scale', 'svm_C': 1.0, 'class_weight': 'balanced', 'cv': 10}",0.4330571897551792,0.004037168582652271,10-fold OOF + PCA(precomputed) + decision_function softmax + expired->NO rule
+2026-01-07T21:06:48,"Non-tuned Neural Network (64-32-relu, 10-fold CV)",0.3831580579280853,0.004363559016685944,,
+2026-01-07T21:12:59,NN_Custom_Tuned_Stage1,"{'arch': '64-32-relu, max_epochs=50', 'lr': 0.01, 'weight_decay': 0.0001, 'batch_size': 128}",0.3831580579280853,0.004599595442414284,"Top Config: lr=0.01, weight_decay=0.0001, batch_size=128"
+2026-01-07T21:19:19,NN_Arch_Tuned_wider_128_64_relu,"{'stage': 'architecture_tuning', 'architecture': 'wider_128_64_relu', 'cv': '10-fold'}",0.3988859951496124,0.0037910074461251497,Architecture selection based on macro-F1; reported score is mean ± std over CV folds
