@@ -60,3 +60,4 @@ timestamp,model,params,mean_f1_macro,std_f1_macro,notes
 2026-01-07T14:31:48,"Non-tuned Neural Network (64-32-relu, 10-fold CV)",0.3831580579280853,0.004363559016685944,,
 2026-01-07T14:38:06,NN_Custom_Tuned_Stage1,"{'arch': '64-32-relu, max_epochs=50', 'lr': 0.01, 'weight_decay': 0.0001, 'batch_size': 128}",0.3831580579280853,0.004599595442414284,"Top Config: lr=0.01, weight_decay=0.0001, batch_size=128"
 2026-01-07T14:44:27,NN_Arch_Tuned_wider_128_64_relu,"{'stage': 'architecture_tuning', 'architecture': 'wider_128_64_relu', 'cv': '10-fold'}",0.3988859951496124,0.0037910074461251497,Architecture selection based on macro-F1; reported score is mean ± std over CV folds
+2026-01-07T17:24:03,LogisticRegression_V4_CorrFilter,"{'C': 0.1, 'corr_threshold': 0.9}",0.4344152265076827,0.003830160066597912,Correlation filter + VarianceThreshold + StandardScaler
