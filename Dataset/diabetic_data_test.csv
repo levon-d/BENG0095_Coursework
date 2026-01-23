@@ -3,7 +3,7 @@ encounter_id,patient_nbr,race,gender,age,weight,admission_type_id,discharge_disp
 28236,89869032,AfricanAmerican,Female,[40-50),?,1,1,7,9,?,?,47,2,17,0,0,0,250.7,403,996,9,None,None,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Steady,No,No,No,No,No,No,Yes,>30
 150006,22864131,?,Female,[50-60),?,2,1,4,2,?,?,66,1,19,0,0,0,410,427,428,7,None,None,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Down,No,No,No,No,No,Ch,Yes,NO
 253380,56480238,AfricanAmerican,Female,[60-70),?,1,1,7,6,?,?,87,0,18,0,0,0,584,496,250.42,9,None,None,No,No,No,No,No,No,No,Up,No,No,No,Steady,No,No,No,No,No,Steady,No,No,No,No,No,Ch,Yes,NO
-383430,80588529,Caucasian,Female,[70-80),?,1,2,7,1,?,Cardiology,28,0,15,0,0,0,414,411,250.01,4,None,None,Steady,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Down,No,No,No,No,No,Ch,Yes,>30
+383430,80588529,Caucasian,Female,[70-80),?,1,2,7,1,?,Cardiology,28,0,15,0,0,0,414,4 ,250.01,4,None,None,Steady,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Down,No,No,No,No,No,Ch,Yes,>30
 550098,21820806,AfricanAmerican,Male,[50-60),?,2,1,2,4,?,?,40,1,14,0,0,0,196,198,197,9,None,None,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,<30
 676422,63754317,AfricanAmerican,Female,[70-80),?,1,1,7,4,?,?,48,2,15,0,1,0,250.4,V45,403,9,None,None,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Steady,No,No,No,No,No,No,Yes,>30
 870294,95075649,Caucasian,Female,[70-80),?,1,6,7,7,?,?,75,2,22,0,0,0,707,428,403,7,None,None,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,<30
